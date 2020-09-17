@@ -40,7 +40,7 @@ baseurl: "/Algorithms-and-Data-Structures" # the subpath of your site, e.g. "/bl
 minima:
   social_links:
     twitter: fastdotai
-    github: "unna97/Algorithms-and-Data-Structures"
+    github: "unna97//Algorithms-and-Data-Structures"
 
 # Set this to true to get LaTeX math equation support
 use_math:
