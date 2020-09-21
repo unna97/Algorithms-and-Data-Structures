@@ -494,16 +494,18 @@ E = set of Vertices pairs
 <li>Find a vertex given a graph.</li>
 <li>In BFS, we first check all neighbours before moving on to neighbours of neighbours
   i.e All level 0 vertex is checked before moving on level 1</li>
-<li>Algorithm:
-  (Queue based approach)
-  -Step1: Define a queue<br>
-  -Step2: Intiliaze it with level 0 vertex or start vertex
-  -Step3: Define a list/set to store already visited vertex
-  -Step4: Repeat this step till queue is empty:
-<pre><code>      -Step1: check all Neighbours of queue[0]
-              -if not in visited list,add neighbour to the queue 
-              - add the edge to ADL for current node and Add edge for current neighbour
-      -Step2: remove queue[0]</code></pre>
+<li>
+<p>Algorithm:</p>
+<p>(Queue based approach)</p>
+
+<pre><code>-Step1: Define a queue      
+-Step2: Intiliaze it with level 0 vertex or start vertex
+-Step3: Define a list/set to store already visited vertex
+-Step4: Repeat this step till queue is empty:
+        -Step1: check all Neighbours of queue[0]
+                -if not in visited list,add neighbour to the queue 
+                - add the edge to ADL for current node and Add edge for current neighbour
+        -Step2: remove queue[0]</code></pre>
 </li>
 </ul>
 
